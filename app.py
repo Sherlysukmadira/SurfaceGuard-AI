@@ -286,27 +286,27 @@ if page == "🏠 Home":
     <br>
     """, unsafe_allow_html=True)
 
-    defect_df = pd.DataFrame({
-        "Defect": [
-            "Crack",
-            "Hole",
-            "Rust",
-            "Scratch",
-            "Normal"
-        ],
-        "Description": [
-            "Retakan pada permukaan logam",
-            "Lubang pada material",
-            "Korosi/Karat",
-            "Goresan permukaan",
-            "Tidak ditemukan cacat"
-        ]
-    })
+    # defect_df = pd.DataFrame({
+    #     "Defect": [
+    #         "Crack",
+    #         "Hole",
+    #         "Rust",
+    #         "Scratch",
+    #         "Normal"
+    #     ],
+    #     "Description": [
+    #         "Retakan pada permukaan logam",
+    #         "Lubang pada material",
+    #         "Korosi/Karat",
+    #         "Goresan permukaan",
+    #         "Tidak ditemukan cacat"
+    #     ]
+    # })
 
-    st.dataframe(
-        defect_df,
-        use_container_width=True
-    )
+    # st.dataframe(
+    #     defect_df,
+    #     use_container_width=True
+    # )
 
     st.markdown("### 📖 Cara Penggunaan")
 
